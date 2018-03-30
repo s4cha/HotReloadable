@@ -1,6 +1,4 @@
 # HotReloadable
-Helpers to write Hot Reloadable View Controllers
-
 Being able to hot reload views with injection [injectionforxcode.com](injectionforxcode.com) is plain amazing.
 The Injection plugin works perfect out of the box but there is still a bit of code we need to write.
 
