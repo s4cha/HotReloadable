@@ -1,6 +1,11 @@
 # HotReloadable
 Helpers to write Hot Reloadable View Controllers
 
+Being able to hot reload views with injection [injectionforxcode.com](injectionforxcode.com) is plain amazing.
+The Injection plugin works perfect out of the box but there is still a bit of code we need to write.
+
+When our view file gets saved and injected, we actually need to manually reload the `View` in our `ViewController` in order to see the change on screen. the following is a snippet that makes this process easier 😎
+
 
 Turn this:
 
